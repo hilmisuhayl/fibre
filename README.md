@@ -17,12 +17,16 @@ A fast, basic way to dump strings from a file, made using regular expressions
 Download the file, make a new file and use the simple following template
 
 ```py
+from fibre import fibre
+
 fibre.s("yourfile.exe", suppress=True, save=True)
 ```
   
 This can be also iterated, you can simply iterate it by using the following template
   
 ```py
+from fibre import fibre
+  
 strings = fibre.s("yourfile.exe", suppress=True,save=True)
 
 for string in strings:
