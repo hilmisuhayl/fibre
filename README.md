@@ -7,7 +7,7 @@
   </a>
   
 # Fibre
-A fast, basic way to dump strings from a file, made using regular expressions
+A fast, basic way to dump strings from any file, made using regular expressions
 
 ## Features
 - Suppress errors
