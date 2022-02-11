@@ -64,3 +64,6 @@ Output
 `suppress` can be only given the value `True`, or `False`, otherwise it will print out an error
   
 `save` works the same as how `suppress` works.
+  
+## References
+- [extract the strings in an exe](https://bytes.com/topic/python/answers/25257-extract-strings-exe)
