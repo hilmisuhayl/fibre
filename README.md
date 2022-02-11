@@ -66,4 +66,4 @@ Output
 `save` works the same as how `suppress` works.
   
 ## References
-- [extract the strings in an exe](https://bytes.com/topic/python/answers/25257-extract-strings-exe)
+- [Bytes.com | Extract the strings in an exe](https://bytes.com/topic/python/answers/25257-extract-strings-exe)
