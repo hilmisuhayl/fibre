@@ -32,6 +32,29 @@ strings = fibre.s("yourfile.exe", suppress=True,save=True)
 for string in strings:
     print(string)
 ```
+Another basic example for customizing output
+```py
+from fibre import fibre
+
+for line in fibre.s("fibre.py", save=True, suppress=True):
+    if len(line) > 25:
+        print(line[0:40] + "..." + line[-10:])
+```
+Output
+```py
+    def s(f, suppress="suppress", save="...):
+            raise "FileNotFoundError: No...' option?"
+        elif suppress == True:...s == True:
+            suppress = "ignore"...= "ignore"
+            suppress = False...ss = False
+        file = open(f, 'r', errors=suppr...ss).read()
+        s = re.findall("[\x1f-\x7e]{4,}"...,}", file)
+            with open(".log", "w") as f:..."w") as f:
+                for i in s:...or i in s:
+                    f.write(i + "\n")...(i + "\n")
+        elif save == False:... == False:
+            raise "TypeError: save must ... or False"
+```
   
 ## Structure
 ```ini
