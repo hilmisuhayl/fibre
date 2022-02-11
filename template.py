@@ -25,3 +25,12 @@ strings = []
 
 for string in fibre.s("fibre.py", save=True, suppress=True):
     strings.append(string)
+    
+"""
+The fourth example or template on how to use Fibre:
+String scanning.
+"""
+
+for string in fibre.s("fibre.py", save=True, suppress=True):
+    if "pytransform" in string:
+        print("File is protected using pyarmor!")
