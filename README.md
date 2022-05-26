@@ -67,3 +67,6 @@ Output
   
 ## References
 - [Bytes.com | Extract the strings in an exe](https://bytes.com/topic/python/answers/25257-extract-strings-exe)
+  
+## Stats
+![Alt](https://repobeats.axiom.co/api/embed/c7e22fdc4b939bb9d0388093224c43f8eeed773a.svg "Repobeats analytics image")
