@@ -1,25 +1,15 @@
 import re
 
-class fibre:
-    def s(f, suppress="suppress", save="save"):        
-        if f is None:
-            raise "FileNotFoundError: No file found, did you mean to use the 'save' option?"
-        elif suppress == True:
-            suppress = "ignore"
-        else:
-            suppress = False
+class fibre(object):
+    def __init__(self, file) -> None:
+        self.file = file
         
-        file = open(f, 'r', errors=suppress).read()
-        
-        s = re.findall("[\x1f-\x7e]{4,}", file)
-        
-        if save == True:
-            with open(".log", "w") as f:
-                for i in s:
-                    f.write(i + "\n")
-        elif save == False:
-            pass
-        else:
-            raise "TypeError: save must be either True or False"
-        
+    def save(self, errors: bool, save: bool):
+        if errors == True: errors = "ignore"
+        with open(self.file, "r", errors=errors) as f:
+            content = f.read()
+            
+        s = re.findall("[\x1f-\x7e]{4,}", content)
+        if save: open(".log", "w").write("\n".join(s))
+        else: pass            
         return s
