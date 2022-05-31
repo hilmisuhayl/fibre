@@ -7,7 +7,7 @@
   </a>
   
 <center><h1>Fibre</h1></center>
-<center>A fast, basic way to dump strings from any file, made using regular expressions</center>
+<center>Reading strings made easier than ever
 
 ### The installation
 Click the <kbd>Code</kbd> button and download ZIP.
@@ -19,6 +19,12 @@ from fibre import fibre as fb
 fibre = fb("fibre.py")
 content = fibre.save(errors=True, save=False)
 for c in content: print(c)
+```
+#### Saving dump
+```py
+from fibre import fibre as fb
+fibre = fb("fibre.py")
+fibre.save(errors=True, save=True)
 ```
   
 ### References
