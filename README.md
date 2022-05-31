@@ -3,7 +3,7 @@
 </p>
 <p align="center">
   <a href="https://discord.gg/79RjTfpzcW" target="_blank">
-    <img src="https://img.shields.io/badge/python-3.10-yellow.svg" alt="Github Workflow build on master" />
+    <img src="https://img.shields.io/badge/python-3.10-pink.svg" alt="Github Workflow build on master" />
   </a>
   
 <center><h1>Fibre</h1></center>
