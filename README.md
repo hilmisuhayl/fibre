@@ -7,10 +7,9 @@
   alt="Github Workflow build on master" />
   <img src="https://shields.io/badge/dependencies-recent-pink"/>
 </a>
-  
-# Introduction
+
 ## Fibre
-A fast, basic way to dump strings from any file, made using regular expressions
+Coolest and most accessible way to dump strings in any file
 
 ### The installation
 Click the <kbd>Code</kbd> button and download ZIP.
